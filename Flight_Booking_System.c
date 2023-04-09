@@ -48,9 +48,9 @@ int main() {
     float total;
     char repeat;
     printf("\nEnter username: ");
-    scanf("%s", &user);
+    scanf("%s", user);
     printf("\nEnter password: ");
-    scanf("%s", &pw);
+    scanf("%s", pw);
     if (strcmp(user, adminu)==0 && strcmp(pw, adminpw)==0)
     {
         printf("\nWelcome");
@@ -237,4 +237,4 @@ int main() {
     printf("\nInvalid login");
     }   
 
-    return 0;
+    return 0;}
